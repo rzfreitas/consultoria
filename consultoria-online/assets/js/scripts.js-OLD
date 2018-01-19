@@ -1,0 +1,107 @@
+jQuery(document).foundation();
+/*
+These functions make sure WordPress
+and Foundation play nice together.
+*/
+
+jQuery(document).ready(function() {
+
+    // Remove empty P tags created by WP inside of Accordion and Orbit
+    jQuery('.accordion p:empty, .orbit p:empty').remove();
+
+	 // Makes sure last grid item floats left
+	jQuery('.archive-grid .columns').last().addClass( 'end' );
+
+	// Adds Flex Video to YouTube and Vimeo Embeds
+  jQuery('iframe[src*="youtube.com"], iframe[src*="vimeo.com"]').each(function() {
+    if ( jQuery(this).innerWidth() / jQuery(this).innerHeight() > 1.5 ) {
+      jQuery(this).wrap("<div class='widescreen flex-video'/>");
+    } else {
+      jQuery(this).wrap("<div class='flex-video'/>");
+    }
+  });
+
+});
+
+/*SCROLL TO TOP*/
+jQuery(document).ready(function(){ 
+	jQuery(window).scroll(function(){ 
+		if (jQuery(this).scrollTop() > 100) { 
+			jQuery('#scroll').fadeIn(); 
+				} else { 
+					jQuery('#scroll').fadeOut(); 
+				} 
+			}); 
+	jQuery('#scroll').click(function(){ 
+		jQuery("html, body").animate({ scrollTop: 0 }, 600); 
+			return false; 
+		}); 
+});
+
+/*VIDEO DEFERING*/
+function init() {
+var vidDefer = document.getElementsByTagName('iframe');
+for (var i=0; i<vidDefer.length; i++) {
+if(vidDefer[i].getAttribute('data-src')) {
+vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+} } }
+window.onload = init;
+
+
+/* REDIRECIONA 
+document.getElementById("botao_form").onclick = function() {
+redirect();
+goog_report_conversion ('http://consultoriaiso.org/');
+};	*/
+
+/* REDIRECIONA */
+document.getElementById("botao_form").onclick = function(e) {
+
+  e.preventDefault();
+  var form = jQuery(event.target).closest('form'),data_array = form.find(':input').serializeArray(),b = jQuery(this);
+
+  RdIntegration.post(data_array, function () {
+
+        redirect();
+        goog_report_conversion ('http://consultoriaiso.org/');
+
+  });  
+
+};
+	
+function redirect(){
+    var name = jQuery('#name').val();
+    var email =  jQuery('#email').val();
+	alert("Obrigado! Você está sendo direcionado para a plataforma de Consultoria On-Line...");
+    window.location = 'https://portal.sgionline.com.br/ra?name='+name+"&email="+email+"&data=TEST DRIVE";
+    return false;
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+	Typed.new('.element', {
+		strings: ["Implementar as certificações ISO", "Pode ser mais fácil" , "Pode ser mais econômico", "Mais rápido", "E pode ser On-line!", "Faça o teste gratuitamente!"],
+			typeSpeed: 10,
+			backDelay: 1500,
+			loop: !0,
+			startDelay: 1200,
+					 });
+				 });
+
+jQuery(document).ready(function() {
+    jQuery('.post').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated bounceInLeft',
+        offset: 100
+       });
+	   jQuery('.post2').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated bounceInRight',
+        offset: 100
+       });
+	   jQuery('.post3').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated bounceInUp',
+        offset: 100
+       });
+	   jQuery('.post4').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 100
+       });
+});

@@ -1,0 +1,3 @@
+[19-Mar-2017 17:38:30 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/consultoriaiso/public_html/wp-content/themes/JointsWP-CSS-master/404.php on line 1
+[23-Mar-2017 23:03:15 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/consultoriaiso/public_html/wp-content/themes/JointsWP-CSS-master/404.php on line 1
+[12-Apr-2017 07:14:44 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/consultoriaiso/public_html/wp-content/themes/JointsWP-CSS-master/404.php on line 1

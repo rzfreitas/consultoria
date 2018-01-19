@@ -1,0 +1,193 @@
+				<footer class="footer" role="contentinfo">
+					<div id="inner-footer">
+					
+						<div class="row padding-top padding-bottom">
+							<div class="small-12 medium-4 large-4 columns fontbranca">	
+								<br><h3><i class="fi-telephone"></i> (31) 3656-5538 </h3>
+							</div>	
+							<div class="small-12 medium-4 large-4 columns">	
+								<a href="<?php echo home_url(); ?>"><img src="http://i.imgur.com/jyiglJK.png" alt="Verde Ghaia Logo"> </a>
+							</div>							
+							<div class="small-12 medium-4 large-4 columns end">
+							  <br><ul class="inline-list social">																
+								<a href="https://www.facebook.com/verdeghaia" target="_blank"><i class="fi-social-facebook"></i></a>
+								<a href="http://twitter.com/verdeghaia" target="_blank"><i class="fi-social-twitter"></i></a>
+								<a href="http://www.linkedin.com/company/1959430" target="_blank"><i class="fi-social-linkedin"></i></a>
+								<a href="https://plus.google.com/103021621222845476497" target="_blank"><i class="fi-social-google-plus"></i></a>
+								<a href="http://www.youtube.com/user/canalverdegaia/videos" target="_blank"><i class="fi-social-youtube"></i></a>
+							  </ul>
+							</div>
+						</div>
+						
+						<div class="row padding-bottom">
+							<div class="premios">															
+								<img src="http://i.imgur.com/Ue7SIMf.png" alt="As pequenas e médias empresas que mais crescem no Brasil - Verde Ghaia" title="As pequenas e médias empresas que mais crescem no Brasil - Verde Ghaia">&nbsp; &nbsp; 									
+								<img src="http://i.imgur.com/Ay1SRT0.png" alt="Prêmio Estadão 2015 - Verde Ghaia" title="Prêmio Estadão 2015 - Verde Ghaia">&nbsp; &nbsp; 								
+								<img src="http://i.imgur.com/Gq14Nmc.png" alt="Prêmio Latamir - Verde Ghaia" title="Prêmio Latamir - Verde Ghaia">&nbsp; &nbsp; 								
+								<img src="http://i.imgur.com/wzgSLqY.png" alt="Great Place To Work Minas Gerais - Verde Ghaia" title="Great Place To Work Minas Gerais - Verde Ghaia">&nbsp; &nbsp; 
+							</div>
+						</div>						
+						
+						<div class="row padding-top padding-bottom fontbranca">
+							<div class="small-12 medium-6 large-3 columns">	
+								<ul class="contact text-center">
+										<b><p class="fontamarela">Links úteis</p></b>
+										<li><a href="http://www.iso.org/iso/home.html" target="_blank"> ISO </a></li>
+										<li><li><a href="https://www.sogi.com.br/" target="_blank"> soGI6 </a></li>
+										<li><a href="https://sogi8.sogi.com.br/" target="_blank"> soGI8 </a></li>
+										<li><a href="https://portal.sgionline.com.br/" target="_blank"> Consultoria on-line </a></li>			
+										<li><a href="http://vgresiduos.com.br/" target="_blank"> VG Resíduos </a></li>
+										<li><a href="http://deivisonpedroza.com.br/" target="_blank"> Deivison Pedroza </a></li>	
+										<li><a href="http://palestrantesfamosos.org" target="_blank"> Palestrantes Famosos </a></li>
+										<li><a href="http://palestramotivacional.org/" target="_blank"> Palestra Motivacional </a></li>			
+								</ul>
+							</div>	
+							<div class="small-12 medium-6 large-3 columns">	
+								<ul class="contact">	  
+								<strong><p class="fontamarela">Conheça a Verde Ghaia</p></strong>
+										<li><a href="http://www.verdeghaia.com.br/" target="_blank"></i> Verde Ghaia Grupo </a></li>			
+										<li><a href="http://www.consultoriaiso.org/" target="_blank"> Consultoria ISO </a></li>
+										<li><a href="http://oksigeno.org.br/" target="_blank"> Instituto Oksigeno </a></li>
+										<li><a href="http://www.vgfranquia.com.br/" target="_blank"> VG Franquia </a></li>
+										<li><a href="http://vgriscolegal.com.br/site/" target="_blank"> VG Risco Legal </a></li>
+										<li><a href="http://www.vgbioenergia.com.br/" target="_blank"> VG Bio Energia </a></li>
+								</ul>	
+							</div>							
+							<div class="small-12 medium-6 large-3 columns end">
+							  <ul class="contact">
+										<b><p class="fontamarela">Consultorias/Certificações</p></b>
+										<li><a href="http://www.consultoriaiso.org/iso-9001/o-que-e-iso-9001/" target="_blank">ISO 9001</a></li>
+										<li><a href="http://www.consultoriaiso.org/iso-14001/o-que-e-iso-14001/" target="_blank">ISO 14001</a></li>
+										<li><a href="http://www.consultoriaiso.org/iso-22000/o-que-e-iso-22000/" target="_blank">ISO 22000</a></li>
+										<li><a href="http://www.consultoriaiso.org/ohsas-18001/o-que-e-ohsas-18001/" target="_blank">OHSAS 18001</a></li>
+										<li><a href="http://www.consultoriaiso.org/iso-9001/migracao-para-empresas-certificadas-iso-9001-2015/" target="_blank">Migração ISO 9001:2015</a></li>
+									</ul>
+							</div>
+							<div class="small-12 medium-6 large-3 columns end">
+							  <ul class="contact">
+									<b><p class="fontamarela">Endereço e horários</p></b>
+									<li><a href="https://goo.gl/maps/4tG1jKQm38U2" target="_blank"><p><i class="fi-marker"></i>Rua General Dionísio Cerqueira, nº 315, Gutierrez, Belo Horizonte/MG – CEP:30441-063</p></a></li>
+									<li><p><i class="fi-telephone"></i>Atendimento de Segunda à Sexta das 9h às 18h Ligue: <b>(31) 3656-5538</b></p></li>
+							  </ul>
+							</div>							
+						</div>						
+				</footer> <!-- end .footer -->
+			</div>  <!-- end .main-content -->
+		</div> <!-- end .off-canvas-wrapper -->	
+		<div class="rowfull copyright">
+			<div class="row">
+				<p>© Copyright 2017 - <strong><a href="http://www.verdeghaia.com.br" target="_blank">Verde Ghaia</a></strong> - Todos os direitos reservados.</p>
+			</div>
+		</div>
+		<!-- Modal Proposta -->
+		<div class="reveal" id="animatedModal-proposta" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+			<div class="text-center">
+				<div id="solicite-uma-proposta-05a76c968748d68a3ba8"></div>
+					<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+					<script type="text/javascript">
+					  new RDStationForms('solicite-uma-proposta-05a76c968748d68a3ba8-html', 'UA-70350867-1').createForm();
+					</script>
+		  <button class="close-button" data-close aria-label="Close modal" type="button">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+			</div>
+		</div>
+		
+		<!-- Modal Contato -->
+		<div class="reveal" id="animatedModal-contato" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
+			<div id="fale_conosco-89e2c01bee36dda6c9b0"></div>
+			<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+			<script type="text/javascript">
+			  new RDStationForms('fale_conosco-89e2c01bee36dda6c9b0-html', 'UA-70350867-1').createForm();
+			</script>
+		</div>
+		
+		<!-- Modal Diagnostico -->
+		<div class="reveal" id="animatedModal-diagnostico" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">	
+			<div class="text-center">
+			<h4> Diagnóstico gratuito da <b>Consultoria On-Line</b> </h4>
+			<small>Preencha corretamente os campos marcados</small></div><br>	
+			<form id="conversion-form" method="post" action="/">
+				<input type="hidden" id="identificador" name="identificador" value="teste" />
+				<input type="hidden" id="token_rdstation" name="token_rdstation" value="2673f1a2e0568e504a2e7cc6d571d683" />		
+				<div class="name-field">
+					<label for="name">Nome* <small>obrigatório</small>
+						<input name="name" type="text" required>
+					</label>
+				</div>
+				<div class="email-field">
+					<label for="email">Email* <small>obrigatório</small>
+						<input name="email" type="email" required>
+					</label>
+				</div>
+				<div class="empresa">
+					<label>Empresa
+						<input type="text">
+					</label>
+				</div>
+				<div class="telefone">
+					<label>Telefone
+						<input type="tel">
+					</label>
+				</div>
+				<div class="cargo">
+					<label>Qual o seu cargo/função?
+					<select>
+					  <option value="">Selecione</option>
+					  <option value="ceo">CEO</option>
+					  <option value="diretor">Diretor </option>
+					  <option value="gerente">Gerente</option>
+					  <option value="coordenadorsupervisor">Coordenador-Supervisor</option>
+					  <option value="analista">Analista</option>
+					  <option value="estagiario">Estagiário</option>
+					  <option value="outros">Outros</option>
+					</select>
+				  </label>
+			  </div>
+			  <div class="norma">
+					<label>Qual norma estaria interessado?* <small>obrigatório</small>
+					<select required>
+					  <option value="">Selecione</option>
+					  <option value="ISO9001">ISO9001</option>
+					  <option value="ISO14001">ISO14001</option>
+					  <option value="OHSAS18001">OHSAS 18001</option>
+					  <option value="ISO22000">ISO22000</option>
+					  <option value="outras">Outras</option>
+					</select>
+				  </label>
+			  </div>
+			  <div class="necessidade">
+					<label>Qual a sua necessidade?* <small>obrigatório</small>
+					<select required>
+					  <option value="">Selecione</option>
+					  <option value="certificacao">Certificação</option>
+					  <option value="manutencao">Manutenção da certificação</option>
+					  <option value="migracao">Migração nova versão da norma</option>
+					  <option value="pesquisaestudo">Pesquisa-Estudo</option>
+					  <option value="outros">Outros</option>
+					</select>
+				  </label>
+			  </div>
+				<div class="text-center">
+				<input type="submit" class="button" id="botao_form" value="Enviar"></input><br>
+				<small>Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.</small>
+				</div>
+			</form>	
+		  <button class="close-button" data-close aria-label="Close modal" type="button">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		
+		<script>
+		/* TAG ANALYTICS*/
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-70350867-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+		<?php wp_footer(); ?>		
+	</body>
+</html> <!-- end page -->
